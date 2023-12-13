@@ -3,6 +3,7 @@ const { createApp } = Vue;
 createApp({
     data(){
         return{
+            added_task: ``,
              todo_list: [
                     {
                        text: `Fare la spesa`,
@@ -38,6 +39,13 @@ createApp({
 
                 this.todo_list.splice(index,1);
             }
+        },
+        addTask(){
+            this.todo_list.push({
+                text: this.added_task,
+                done: false
+            })
+            this.added_task = ``
         }
 
     }
