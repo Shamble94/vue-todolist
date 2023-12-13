@@ -30,5 +30,15 @@ createApp({
                     }
                 ]
         }
+    },
+    methods:{
+        removeTask(index){
+            let conferma = confirm("Sei sicuro di voler eliminare questa task?")
+            if(conferma){
+
+                this.todo_list.splice(index,1);
+            }
+        }
+
     }
 }).mount(`#app`);

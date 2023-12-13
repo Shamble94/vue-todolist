@@ -6,8 +6,14 @@
 .todolist-container{
     max-width: 500px;
     margin: 0 auto;
+    background-color: yellow;
+    padding: 20px
 }
 
 body{
     background-image: ;
+    background-color: green;
+}
+li{
+    border-bottom: 1px solid black;
 }

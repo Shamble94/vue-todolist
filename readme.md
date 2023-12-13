@@ -1,3 +1,7 @@
+<!-- HO AVUTO PROBLEMI CON LA VECCHIA REPO E HO RIPRESO I TESTI DA LI PER QUESTO MOTIVO IL PUSH SARA DALLA MILESTONE 2 -->
+
+
+
 Esercizio di oggi: Vue To Do List nome repo: vue-todolist Descrizione: Rifare l'esercizio della to do list. Create una todolist in cui ogni todo sarà un oggetto, formato da due proprietà:
 
 text, una stringa che indica il testo del todo
