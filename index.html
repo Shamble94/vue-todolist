@@ -43,7 +43,7 @@
                                 </li>
                                 <div class="addTask d-flex mt-3">
                                     <div class="col-9">
-                                        <input type="text" class="form-control form-control-sm" placeholder="Inserisci una nuova task" v-model="added_task">
+                                        <input type="text" class="form-control form-control-sm" placeholder="Inserisci una nuova task" v-model="added_task" @keyup.enter="addTask">
                                     </div>
                                     <div class="col-3" >
 
