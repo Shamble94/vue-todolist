@@ -32,7 +32,7 @@
                                     <!-- DIV CHE AL CLICK CAMBIA IL VALORE DI TODO.DONE -->
                                     <div class=" d-flex justify-content-between my-3 " >
                                         <!-- TESTO DELLA LISTA -->
-                                        <span>
+                                        <span @click="todo.done = !todo.done">
                                             {{ todo.text }} 
                                         </span>
                                         <!-- DIV CHE CONTIENE I BOTTONI -->
