@@ -24,13 +24,13 @@
                 <div class="row">
                     <div class="col-12">
                         <!-- CONTENITORE LISTA -->
-                        <div class="todolist-container">
+                        <div class="todolist-container ">
                             <!-- LISTA NON NUMERATA -->
                             <ul class = "list-unstyled">
                                 <!-- ELEMENTO DELLA LISTA CHE VIENE CREATO PER OGNI ELEMENTO DELL'ARRAY TODO_LIST -->
                                 <li  v-for="(todo, index) in todo_list" :key="index" :class="todo.done ? `text-decoration-line-through` : ``"> 
                                     <!-- DIV CHE AL CLICK CAMBIA IL VALORE DI TODO.DONE -->
-                                    <div class=" d-flex justify-content-between my-3" @click="todo.done = !todo.done">
+                                    <div class=" d-flex justify-content-between my-3 " >
                                         <!-- TESTO DELLA LISTA -->
                                         <span>
                                             {{ todo.text }} 
